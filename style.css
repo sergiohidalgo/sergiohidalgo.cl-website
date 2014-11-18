@@ -1,0 +1,327 @@
+@charset;
+
+/* CSS Document */
+
+@font-face {
+    font-family: 'quattrocento_sansregular';
+    src: url('fonts/quattrocentosans-regular-webfont.eot');
+    src: url('fonts/quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/quattrocentosans-regular-webfont.woff2') format('woff2'), url('fonts/quattrocentosans-regular-webfont.woff') format('woff'), url('fonts/quattrocentosans-regular-webfont.ttf') format('truetype'), url('fonts/quattrocentosans-regular-webfont.svg#quattrocento_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quattrocento_sansbold';
+    src: url('fonts/quattrocentosans-bold-webfont.eot');
+    src: url('fonts/quattrocentosans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/quattrocentosans-bold-webfont.woff2') format('woff2'), url('fonts/quattrocentosans-bold-webfont.woff') format('woff'), url('fonts/quattrocentosans-bold-webfont.ttf') format('truetype'), url('fonts/quattrocentosans-bold-webfont.svg#quattrocento_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'quattrocento_sansregular';
+}
+/* Header */
+
+.navPrincipal {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(38, 42, 49, 0.3);
+    -moz-box-shadow: 0 4px 8px 0 rgba(38, 42, 49, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(38, 42, 49, 0.3);
+    background-color: #009bcb;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    -webkit-transition: background 4s ease;
+    -moz-transition: background 4s ease;
+    -o-transition: background 4s ease;
+    transition: background 4s ease;
+}
+body.pequeno .navPrincipal{
+    background-color: rgba(0, 155, 203, 0.9);
+}
+header {
+    background-color: #f8fafa;
+    height: 680px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+body.pequeno header{
+    height: 450px;
+}
+body.grande header{
+    height: 680px;
+}
+#LogoSVG{
+    width: 570px;
+    display: block;
+    margin: 0 auto;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+body.pequeno #LogoSVG{
+    width: 240px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+#logo {
+    display: block;
+    text-indent: -999999px;
+}
+#redesSocialesList {
+    width: 290px;
+    margin-top: -40px;
+}
+.fa-redes {
+    font-size: 21px;
+    color: #ffffff;
+    background-color: #dae1e3;
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 7px;
+    border: 1px solid #dae1e3;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    margin: 0px 10px;
+}
+.fa-redes:hover {
+    color: #dae1e3;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+/*Conocimientos*/
+
+.concimientos{
+    padding: 0px;
+    -webkit-box-shadow: 0 5px 5px -2px rgba(0,47,79,0.31) ;
+    -moz-box-shadow: 0 5px 5px -2px rgba(0,47,79,0.31) ;
+    box-shadow: 0 5px 5px -2px rgba(0,47,79,0.31) ;
+}
+.concimientos ul {
+    padding: 0px;
+    margin-top: 20px;
+}
+.logoCirculo {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 180px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-background-size: 63% 63%;
+    -moz-background-size: 63%;
+    -o-background-size: 63%;
+    background-size: 63%;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+.logoCirculoDeg{
+    height: 200px;
+    width: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+    background: #f8fafa;
+    background: -moz-linear-gradient(top,  #f8fafa 0%, #d1d1d1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8fafa), color-stop(100%,#d1d1d1));
+    background: -webkit-linear-gradient(top,  #f8fafa 0%,#d1d1d1 100%);
+    background: -o-linear-gradient(top,  #f8fafa 0%,#d1d1d1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f8fafa), to(#d1d1d1));
+    background: -webkit-linear-gradient(top, #f8fafa 0%, #d1d1d1 100%);
+    background: -o-linear-gradient(top, #f8fafa 0%, #d1d1d1 100%);
+    background: linear-gradient(to bottom,  #f8fafa 0%,#d1d1d1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8fafa', endColorstr='#d1d1d1',GradientType=0 );
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    transition: all 1000ms ease;
+    opacity: 0.8;
+}
+.activado .logoCirculoDeg{
+    background: #d1d1d1;
+    background: -moz-linear-gradient(top,  #d1d1d1 0%, #f8fafa 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d1d1d1), color-stop(100%,#f8fafa));
+    background: -webkit-linear-gradient(top,  #d1d1d1 0%,#f8fafa 100%);
+    background: -o-linear-gradient(top,  #d1d1d1 0%,#f8fafa 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#d1d1d1), to(#f8fafa));
+    background: -webkit-linear-gradient(top, #d1d1d1 0%, #f8fafa 100%);
+    background: -o-linear-gradient(top, #d1d1d1 0%, #f8fafa 100%);
+    background: linear-gradient(to bottom,  #d1d1d1 0%,#f8fafa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#f8fafa',GradientType=0 );
+    opacity: 1;
+}
+.logoCirculo > i{
+    font-size: 100px;
+    margin-top: 40px;
+}
+.concimientos{
+    background-image: url(imagenes/background-conocimientos.jpg);
+    -webkit-transition: background 2s ease;
+    -moz-transition: background 2s ease;
+    -o-transition: background 2s ease;
+    transition: background 2s ease;
+    
+}
+li.conocimiento {
+    width: 25%;
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+li.conocimiento > p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ededed;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+.concimientos {
+    padding: 35px 0px;
+}
+#logo h1,#logo h2 {
+    font-size: 1px;
+    margin: 0px;
+}
+.concimientos .fa{
+    color: #1877b2;
+}
+.activado .logoCirculo{
+    background-color: #1877b2;
+    color: #f8fafa;
+}
+.activado .fa{
+    color: #f8fafa;
+}
+
+body{
+    height: 2000px;
+}
+.menuTop{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+}
+.menuTop li{
+    list-style: none;
+    float: right;
+}
+.logoHome{
+    display: none;
+}
+.menuTop li a{
+    color: #f8fafa;
+    font-size: 20px;
+    margin-left: 60px;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: border 300ms ease;
+    border-bottom: 1px solid transparent;
+}
+.menuTop li a:hover, .menuTop li a.active{
+    border-bottom: 1px solid #f8fafa;
+}
+.soyGrande{
+    height: 2000px;
+}
+.smoothScrollDiv {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+h4.tituloConocimiento{
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    padding-left: 5%;
+    text-align: right;
+    width: 45%;
+    float: left;
+}
+.descripcionAll{
+    position: relative;
+    padding: 30px 0;
+}
+.descripcionAll .fa-times{
+    position: absolute;
+    right: -30px;
+    top: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.descripcionAll .fa-times:hover{
+    color: rgba(0, 0, 0, 0.8);
+}
+.descripcionAll p{
+    float: left;
+    margin-left: 5%;
+    width: 50%;
+    margin-top: 10px;
+}
+.fuenteTitulo{
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+}
+.portaforlio h2{
+    font-size: 100px;
+}
+/* PPORTAFOLIO */
+section.portafolio{
+    background-color: #505050;
+}
+.portafolio h2{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+.proyecto{
+    background:red;
+    overflow: hidden;
+    padding: 0px;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+.proyecto img{
+    -webkit-transition: 400ms all ease;
+    -moz-transition: 400ms all ease;
+    -o-transition: 400ms all ease;
+    transition: 400ms all ease;
+}
+.proyecto img:hover{
+    -webkit-transform:rotate(-10deg);
+    -moz-transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg);
+    -o-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+    max-width: 150%;
+    margin-top: -15%;
+    margin-left: -25%;
+}
